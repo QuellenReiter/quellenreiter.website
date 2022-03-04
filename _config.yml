@@ -74,10 +74,13 @@ people                                    :
 logos                                     :
 
   - url                                   : assets/bmbf.jpg
+    link                                  : https://www.bmbf.de
     
   - url                                   : assets/okfd.svg
+    link                                  : https://okfn.de
 
   - url                                   : assets/pf.png
+    link                                  : https://prototypefund.de
 
 # Theme Settings
 topbar_color                              : "#000000"
