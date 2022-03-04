@@ -3,16 +3,16 @@ layout: page
 title: Impressum
 include_in_header: false
 ---
-
-**Last updated**  
+<br><br><br><br>
+**Last updated**  <br>
 March 3 2022
 
 # Privacy Policy
 
 ## Angaben gemäß § 5 TMG
-Sasse & Werner GbR
-Elsenstr. 74
-12059 Berlin
+Sasse & Werner GbR<br>
+Elsenstr. 74<br>
+12059 Berlin<br>
 
 <br>
 
@@ -22,8 +22,8 @@ E-Mail: quellenreiter.app@gmail.com
 
 ### Redaktionell Verantwortlicher
 
-Jannik Werner
-Simon Sasse
+Jannik Werner<br>
+Simon Sasse<br>
 
 
 ## EU-Streitschlichtung
