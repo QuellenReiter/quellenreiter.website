@@ -274,6 +274,7 @@ nav>ul li a:active {
 
 .appDescriptionContainer {
     font-family: $bangers;
+    letter-spacing: 2px;
     font-size: 2.5rem;
     font-weight: normal;
     width: 100%;
@@ -285,6 +286,7 @@ nav>ul li a:active {
 
 .appDescription {
     font-family: $bangers;
+    letter-spacing: 2px;
     color: $header-text-color;
 }
 
@@ -494,6 +496,7 @@ nav>ul li a:active {
 .featureText {
     font-family: $oswald;
     margin-left: 18px;
+    letter-spacing: 0px;
 }
 
 .featureText>h3 {
