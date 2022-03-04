@@ -273,6 +273,7 @@ nav>ul li a:active {
 }
 
 .appDescriptionContainer {
+    font-family: $bangers;
     font-size: 2.5rem;
     font-weight: normal;
     width: 100%;
@@ -283,6 +284,7 @@ nav>ul li a:active {
 }
 
 .appDescription {
+    font-family: $bangers;
     color: $header-text-color;
 }
 
@@ -490,10 +492,12 @@ nav>ul li a:active {
 }
 
 .featureText {
+    font-family: $oswald;
     margin-left: 18px;
 }
 
 .featureText>h3 {
+    font-weight: 400;
     color: $feature-title-color;
     line-height: 1.5;
 }
@@ -638,6 +642,7 @@ footer {
 }
 
 .footerLinks {
+    font-family: $font;
     flex-direction: column;
     display: flex;
     text-align: left;

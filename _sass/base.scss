@@ -6,11 +6,18 @@ $content-width: 1170px;
     src: url(assets/Bangers-Regular.ttf) format('truetype');
 }
 
-$font: Bangers;
+@font-face {
+    font-family: 'Oswald';
+    src: url(assets/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
+$bangers: Bangers;
+$oswald: Oswald;
+$font: Oswald;
 $primary-text-color: #000000;
 html {
     font-size: 62.5%;
-    font-family: $font;
+    font-family: $bangers;
     line-height: 1;
 }
 
@@ -33,6 +40,10 @@ h2 {
 
 h3 {
     font-size: 2rem;
+}
+
+p {
+    font-family: $oswald;
 }
 
 // Better font rendering
