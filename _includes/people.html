@@ -1,0 +1,22 @@
+<div class="people">
+    <h1>
+        Über die Entwickler
+    </h1><br> {% for person in site.people %} {% if person.title %}
+    <div class="person">
+        <div>
+            <span class="person-avatar">
+                <img src="{{ person.avatar}}">
+            </span>
+        </div>
+        <div class="personText">
+            <h3>
+                {{ person.title }}
+            </h3>
+            <p>
+                {{ person.text}}
+            </p>
+        </div>
+    </div>
+    {% endif %} {% endfor %}
+
+</div>

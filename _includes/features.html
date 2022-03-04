@@ -1,8 +1,6 @@
 <div class="features">
 
-    {% for feature in site.features %}
-
-    {% if feature.title %}
+    {% for feature in site.features %} {% if feature.title %}
     <div class="feature">
         <div>
             <span class="fa-stack fa-1x">
@@ -14,13 +12,8 @@
             <h3>
                 {{ feature.title }}
             </h3>
-            <p>
-                {{ feature.description }}
-            </p>
         </div>
     </div>
-    {% endif %}
-
-    {% endfor %}
+    {% endif %} {% endfor %}
 
 </div>
