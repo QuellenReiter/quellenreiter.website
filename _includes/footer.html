@@ -24,7 +24,7 @@
     <div class="footer-logo-link">
         <div class="footer-logos">
             {% for logo in site.logos %}
-                <div onclick="location.href='{{logo.link}}'" style="background-image: url({{ logo.url }})">
+                <div onclick="window.open('{{ logo.link }}')" style="background-image: url({{ logo.url }})">
             </div>
             {% endfor %}
         </div>
