@@ -1,6 +1,12 @@
 {
   
    "webcredentials": {
-      "apps": [ "56V324K9DQ.com.quellenreiter.quellenreiterApp" ]
+      "apps": [ "56V324K9DQ.com.quellenreiter.quellenreiterApp" ],
+      "details": [
+            {
+                "appID": "56V324K9DQ.com.quellenreiter.quellenreiterApp",
+                "paths": [ "/friends/*", "/home/"]
+            }
+        ]
    },
 }
