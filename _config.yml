@@ -1,3 +1,4 @@
+include: [".well-known"]
 #page title
 page_title                                : Quellenreiter:in - Das "Fake News" Quiz                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
