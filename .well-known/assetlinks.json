@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android",
+      "package_name": "com.example.quellenreiter_app",
+      "sha256_cert_fingerprints":
+      ["C0:4E:9E:12:53:B4:91:B5:7B:EA:A1:A8:A8:7D:78:C0:57:20:B4:17:30:45:91:66:5E:8E:DB:BC:33:1B:7C:9E"]
+    }
+  }]
