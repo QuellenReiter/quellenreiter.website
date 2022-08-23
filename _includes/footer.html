@@ -32,9 +32,7 @@
             {% for page in site.pages %}
                 <!-- if pagetitle is not app -->
                 {% if page.title != "Datenschutz­erklärung App" %}<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>{% endif %}
-                {% if page.title == "Datenschutz­erklärung App" %}<a href="{{ page.url | relative_url }}" target="_self">Datenschutz der App</a>{% endif %}
-
-            {% endfor %} 
+            {% endfor %}
             {% if site.presskit_download_link %}
             <a href="{{ site.presskit_download_link }}">Press Kit</a> {% endif %}
         </div>
