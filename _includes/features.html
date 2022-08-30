@@ -10,7 +10,11 @@
         </div>
         <div class="featureText">
             <h3>
+                {% if feature.title == "hier geht's zum Fact Browser" %}
+                <a href="{{ site.fact_browser_link }}">{{ feature.title }}</a>
+                {% else %}
                 {{ feature.title }}
+                {% endif %}
             </h3>
         </div>
     </div>

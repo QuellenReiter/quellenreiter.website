@@ -3,18 +3,18 @@ include: [".well-known"]
 page_title                                : Quellenreiter:in - Das "Fake News" Quiz                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           :                                           # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id                                : 1641339420                                          # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : de                                                  # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
+playstore_link                            : https://play.google.com/store/apps/details?id=com.quellenreiter.quellenreiter_app                                          # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/logo-pink.png                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Quellenreiter:in                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Wir helfen spielerisch "Fake News" zu erkennen.
+app_price                                 : Das "Fake News" Quiz                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Wir helfen spielerisch "Fake News" zu erkennen
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -30,6 +30,7 @@ instagram_username                        : quellenreiter.app
 twitter_username                          : QuellenReiterDE
 github_username                           : QuellenReiter
 youtube_username                          :
+fact_browser_link                         : https://fakten.quellenreiter.app/
 
 
 
@@ -56,19 +57,19 @@ features                                  :
     description                           : So kann das Projekt frei zugänglich Nachrichtenkompetenzen in der Zivilgesellschaft fördern.
     fontawesome_icon_name                 : rocket
   
-  - title                                 : # New Feature Title
+  - title                                 : hier geht's zum Fact Browser
     description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+    fontawesome_icon_name                 : link
 
 # People List                            Edit, add or remove features to be presented.
 people                                    :
 
   - title                                 : Jannik Werner
-    text                                  : Redaktion | Faktencheck | Entwicklung
+    text                                  : Redaktion | Faktencheck | Design
     avatar                                : assets/jannik.jpg
     
   - title                                 : Simon Sasse
-    text                                  : Programmierung | Design | Entwicklung
+    text                                  : Programmierung | Entwicklung | Design
     avatar                                : assets/simon.jpg
 
 # Sponsors List                            Edit, add or remove features to be presented.
@@ -92,7 +93,7 @@ cover_image                               : assets/headerimage.png              
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
-device_color                              : yellow                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 header_background_color                   : "#0999bc"
