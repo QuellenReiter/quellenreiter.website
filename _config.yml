@@ -31,6 +31,7 @@ twitter_username                          : QuellenReiterDE
 github_username                           : QuellenReiter
 youtube_username                          :
 fact_browser_link                         : https://fakten.quellenreiter.app/
+podcast_link                              : https://podfaktisch.de/
 
 
 
@@ -58,6 +59,10 @@ features                                  :
     fontawesome_icon_name                 : rocket
   
   - title                                 : hier geht's zum Fact Browser
+    description                           : # New Feature Description
+    fontawesome_icon_name                 : link
+
+  - title                                 : podfaktisch - Faktenchecks zum hören!
     description                           : # New Feature Description
     fontawesome_icon_name                 : link
 
