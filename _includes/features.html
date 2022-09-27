@@ -12,7 +12,7 @@
             <h3>
                 {% if feature.title == "hier geht's zum Fact Browser" %}
                 <a href="{{ site.fact_browser_link }}">{{ feature.title }}</a>
-                {% else  if feature.title == "podfaktisch - Faktenchecks zum hören!" %}
+                {% elsif feature.title == "podfaktisch - Faktenchecks zum hören!" %}
                 <a href="{{ site.podcast_link }}">{{ feature.title }}</a>
                 {% else  %}
                 {{ feature.title }}
