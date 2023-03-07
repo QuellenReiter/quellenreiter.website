@@ -65,8 +65,9 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kom
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
 Sasse & Werner GbR<br>
-Elsenstr. 74<br>
-12059 Berlin<br>
+c/o Postflex #3419<br>
+Emsdettener Str. 10<br>
+48268 Greven<br>
 
 E-Mail: quellenreiter.app@gmail.com<br>
 

@@ -11,8 +11,9 @@ March 3 2022
 
 ## Angaben gemäß § 5 TMG
 Sasse & Werner GbR<br>
-Elsenstr. 74<br>
-12059 Berlin<br>
+c/o Postflex #3419<br>
+Emsdettener Str. 10<br>
+48268 Greven<br>
 
 <br>
 
